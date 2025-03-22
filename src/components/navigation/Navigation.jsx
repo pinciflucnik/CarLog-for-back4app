@@ -15,16 +15,16 @@ export default function Navigation(){
 
                     
                     <div className="navbar-header">
-                        <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        {/* <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                             <i className="fa fa-bars"></i>
-                        </button>
+                        </button> */}
                         <Link className="navbar-brand" to="/">carlog<span></span></Link>
 
                     </div>
                   
 
                     
-                    <div className="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+                    <div className="navbar-collapse menu-ui-design" id="navbar-menu">
                         <ul className="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
                             <li className=" scroll"><Link to="/">home</Link></li>
                             <li className="scroll"><Link to="/cars">cars</Link></li>

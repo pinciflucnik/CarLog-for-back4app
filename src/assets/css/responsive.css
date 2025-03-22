@@ -20,7 +20,7 @@
 
 }/*max-width:1008px*/
 
-@media screen and (max-width:992px){
+/* @media screen and (max-width:992px){
 	nav.navbar.bootsnav .navbar-collapse.collapse.in {padding-bottom: 30px;}
 	nav.navbar.bootsnav {background-color:#000;}
 	.wrap-sticky nav.navbar.bootsnav.sticked ul.nav > li > a {padding: 18px 0px;}
@@ -28,7 +28,7 @@
 	nav.navbar.bootsnav ul.nav > li > a {padding: 15px 0px;border: transparent;}
 }/*max-width:992px*/
 
-@media screen and (max-width:991px){
+/* @media screen and (max-width:991px){
 	.welcome-hero-txt h2 {line-height: 1.6;}
 
 	.model-search-content .col-sm-12 {padding: 0 40px;}
@@ -37,7 +37,7 @@
 
 	.single-new-cars-item {max-width: 450px; margin: 0 auto;}
 	.new-cars-txt {margin: 30px 0;}
-}/*max-width:991px*/
+}max-width:991px */ 
 
 @media screen and (max-width:768px){
     
@@ -49,6 +49,12 @@
 	.footer-social {text-align: left;}
 	.footer-social a i {margin-right: 16px;margin-left: 0;}
 	.hm-foot-email {max-width: 300px;}
+	.container{
+		max-height: 250px;
+	}
+	.navbar-collapse ul{
+		display: flex;
+	}
 }/*max-width:767px*/
 
 @media screen and (max-width: 660px){
@@ -73,7 +79,7 @@
 }/*max-width:480px*/
 
 @media screen and (max-width: 440px){
-	.welcome-hero-txt h2,{font-size: 24px;line-height: 1.5;}
+	.welcome-hero-txt h2 {font-size: 24px;line-height: 1.5;}
 	
 }/*max-width:400px*/
 
@@ -84,9 +90,9 @@
 }/*max-width:399px*/
 
 @media screen and (max-width:350px){
-	nav.navbar.bootsnav .navbar-toggle {margin-right: -25px;left:-10px;}
+	/* nav.navbar.bootsnav .navbar-toggle {margin-right: -25px;left:-10px;}
 	nav.navbar.bootsnav .navbar-brand {padding:25px 0;font-size: 20px;}
-	.wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand, .wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand:hover,.wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand:focus {padding: 25px 0px;}
+	.wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand, .wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand:hover,.wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand:focus {padding: 25px 0px;} */
 }/*max-width:350px*/
 
 @media screen and  (max-width: 320px){
