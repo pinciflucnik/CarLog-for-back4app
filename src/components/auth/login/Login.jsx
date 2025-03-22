@@ -1,8 +1,6 @@
 import { Link, useNavigate } from "react-router";
-import useForm from "../../../hooks/UseForm";
-import useAuth from "../../../hooks/UseAuth";
-import { useContext, useEffect } from "react";
-import AuthContext from "../../../context/AuthContext";
+import useForm from "../../../hooks/useForm";
+import useAuth from "../../../hooks/useAuth";
 
 export default function Login() {
     const { loginHandler, isPending } = useAuth()

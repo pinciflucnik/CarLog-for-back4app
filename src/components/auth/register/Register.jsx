@@ -1,6 +1,6 @@
 import { Link } from "react-router";
-import useAuth from "../../../hooks/UseAuth";
-import useForm from "../../../hooks/UseForm";
+import useAuth from "../../../hooks/useAuth";
+import useForm from "../../../hooks/useForm";
 
 export default function Register() {
     const { registerHandler, isPending } = useAuth();
