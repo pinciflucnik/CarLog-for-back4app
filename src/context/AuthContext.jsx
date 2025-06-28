@@ -1,5 +1,4 @@
 import { createContext, useState } from "react";
-import Parse from 'parse/dist/parse.min.js'
 const AuthContext = createContext();
 
 export const AuthProvider = ({children}) => {
