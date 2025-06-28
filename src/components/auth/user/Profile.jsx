@@ -46,7 +46,7 @@ export default function Profile() {
             </div>
             {cars.length > 0 &&
                 <div className="user-info col-md-12">
-                    <h1>My cars</h1>
+                    <h1 className="title">My cars</h1>
                 </div>
             }
             <div className="container my-cars">

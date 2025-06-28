@@ -969,6 +969,22 @@ body table tbody tr td{
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .user-profile h1 {
+		font-size: 1em;
+	}
+    h1.title {
+        font-size: 1em;
+    }
+    .user-profile {
+		flex-direction: column;
+        align-items: center;
+	}
+    .profile-picture{
+        width: 80px;
+        height: 80px;
+    }
+
+
     .about-content {
         padding: 20px;
     }
@@ -979,6 +995,9 @@ body table tbody tr td{
 
     .about-content p {
         font-size: 1rem;
+    }
+    .menu-ui-design {
+        height: auto;
     }
 }
 .details .special {
