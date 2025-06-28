@@ -967,7 +967,7 @@ body table tbody tr td{
     color: var(--secondary-text-color);
 }
 
-/* Responsive Design */
+/* Responsive Design */ 
 @media (max-width: 768px) {
     .user-profile h1 {
 		font-size: 1em;
