@@ -6,7 +6,7 @@ import {
 import {
     useNavigate
 } from "react-router";
-import Parse from 'parse/dist/parse.min.js';
+import Parse from '../lib/parse';
 import axios from 'axios';
 
 import AuthContext from "../context/AuthContext";
@@ -25,13 +25,6 @@ export default function useAuth() {
     } = useContext(ErrorContext);
     const [isPending, setPending] = useState(false)
     const navigate = useNavigate();
-    useEffect(() => {
-        Parse.initialize(
-            import.meta.env.VITE_APP_ID,
-            import.meta.env.VITE_JS_KEY
-        );
-        Parse.serverURL = "https://parseapi.back4app.com/";
-    }, []);
 
     const loginHandler = async (data) => {
         try {

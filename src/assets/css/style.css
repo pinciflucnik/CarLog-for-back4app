@@ -999,6 +999,9 @@ body table tbody tr td{
     .menu-ui-design {
         height: auto;
     }
+    .error-box {
+        left: 45%;
+    }
 }
 .details .special {
     margin: 20px;

@@ -12,5 +12,8 @@ export default function ErrorMessage(){
               </div>
             : <></>
         )
+        // <div className="error-box">
+        //         <p className="error-text">kurec</p>
+        //       </div>
     )
 }

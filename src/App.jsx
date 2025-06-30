@@ -25,7 +25,6 @@ import NotFound from './components/404/404'
 import GuardAuthenticated from './route-guards/GuardAuthenticated'
 import GuardGuest from './route-guards/GuardGuest'
 import About from './components/about/About'
-import { useEffect } from 'react';
 
 function App() {
 
